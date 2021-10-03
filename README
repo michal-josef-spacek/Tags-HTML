@@ -24,21 +24,21 @@ METHODS
 
     *       "tags"
 
-            'Tags::Output' object.
+            'Tags::Output' object for process processing.
 
             Default value is undef.
 
   "process"
-     $obj->process($percent_value);
+     $obj->process;
 
-    Process Tags structure for gradient.
+    Process Tags structure.
 
     Returns undef.
 
   "process_css"
      $obj->process_css;
 
-    Process CSS::Struct structure for output.
+    Process CSS::Struct structure.
 
     Returns undef.
 

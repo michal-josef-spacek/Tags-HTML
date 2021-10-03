@@ -120,7 +120,7 @@ Default value is undef.
 
 =item * C<tags>
 
-'Tags::Output' object.
+'Tags::Output' object for L<process> processing.
 
 Default value is undef.
 
@@ -128,9 +128,9 @@ Default value is undef.
 
 =head2 C<process>
 
- $obj->process($percent_value);
+ $obj->process;
 
-Process Tags structure for gradient.
+Process Tags structure.
 
 Returns undef.
 
@@ -138,7 +138,7 @@ Returns undef.
 
  $obj->process_css;
 
-Process CSS::Struct structure for output.
+Process CSS::Struct structure.
 
 Returns undef.
 
