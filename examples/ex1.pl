@@ -50,9 +50,17 @@ $obj->process('value');
 
 # Print out.
 print "CSS\n";
-print $css->flush."\n";
+print $css->flush."\n\n";
 print "HTML\n";
 print $tags->flush."\n";
 
 # Output:
-# TODO
+# CSS
+# div {
+# 	background-color: red;
+# }
+#
+# HTML
+# <div>
+#   value
+# </div>
