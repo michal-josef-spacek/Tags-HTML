@@ -18,6 +18,9 @@ sub new {
 	# 'CSS::Struct::Output' object.
 	$self->{'css'} = undef;
 
+	# No CSS support.
+	$self->{'no_css'} = 0;
+
 	# 'Tags::Output' object.
 	$self->{'tags'} = undef;
 
@@ -25,7 +28,9 @@ sub new {
 	set_params($self, @params);
 
 	# Check to 'CSS::Struct::Output' object.
-	if (defined $self->{'css'} && ! $self->{'css'}->isa('CSS::Struct::Output')) {
+	if (! $self->{'no_css'} && defined $self->{'css'}
+		&& ! $self->{'css'}->isa('CSS::Struct::Output')) {
+
 		err "Parameter 'css' must be a 'CSS::Struct::Output::*' class.";
 	}
 
@@ -54,6 +59,11 @@ sub process {
 # Process 'CSS::Struct'.
 sub process_css {
 	my ($self, @params) = @_;
+
+	# No CSS support.
+	if ($self->{'no_css'}) {
+		return;
+	}
 
 	if (! defined $self->{'css'}) {
 		err "Parameter 'css' isn't defined.";
@@ -117,6 +127,13 @@ Returns instance of class.
 'CSS::Struct::Output' object for L<process_css> processing.
 
 Default value is undef.
+
+=item * C<no_css>
+
+No CSS support flag.
+If this flag is set to 1, L<process_css()> returns undef.
+
+Default value is 0.
 
 =item * C<tags>
 
