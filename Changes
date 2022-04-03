@@ -1,4 +1,4 @@
-0.02
+0.02 2022-04-03T12:42:06+02:00
  - Add 'no_css' parameter to not support CSS.
  - Add tests.
  - Update copyrigt years.
