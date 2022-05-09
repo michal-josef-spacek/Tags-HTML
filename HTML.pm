@@ -247,6 +247,20 @@ Returns undef.
 L<Class::Utils>,
 L<Error::Pure>.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<Plack::App::Tags::HTML>
+
+Plack application for Tags::HTML objects.
+
+=item L<Plack::Component::Tags::HTML>
+
+Plack component for Tags with HTML output.
+
+=back
+
 =head1 REPOSITORY
 
 L<https://github.com/michal-josef-spacek/Tags-HTML>
