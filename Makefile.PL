@@ -20,6 +20,7 @@ readme_from 'HTML.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0;
 requires 'Error::Pure' => 0;
+requires 'Scalar::Util' => 0;
 resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Tags-HTML/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Tags-HTML';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Tags-HTML';
