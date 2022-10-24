@@ -5,7 +5,8 @@ konstruktoru.
 3. Finish test coverage
 4. Add init() method to initialize object before process() and process_css().
 5. Add cleanup() method to cleanup after process() and process_css().
-6.
+6. Add process_js() method.
+7.
 
 Applied
 =======
