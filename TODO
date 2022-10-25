@@ -3,8 +3,6 @@ TODO
 1. Pridat druhy priklad, kde bude v dedene tride pridan parametr do
 konstruktoru.
 3. Finish test coverage
-4. Add init() method to initialize object before process() and process_css().
-5. Add cleanup() method to cleanup after process() and process_css().
 6. Add process_js() method.
 7. Add information about inheritance to doc. Which methods we can inherite and
 why?
@@ -14,3 +12,9 @@ Applied
 =======
 2. Tests.
 OK [20220403] skim
+
+4. Add init() method to initialize object before process() and process_css().
+OK [20221025] skim
+
+5. Add cleanup() method to cleanup after process() and process_css().
+OK [20221025] skim
