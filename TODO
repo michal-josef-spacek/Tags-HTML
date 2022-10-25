@@ -6,7 +6,9 @@ konstruktoru.
 4. Add init() method to initialize object before process() and process_css().
 5. Add cleanup() method to cleanup after process() and process_css().
 6. Add process_js() method.
-7.
+7. Add information about inheritance to doc. Which methods we can inherite and
+why?
+8.
 
 Applied
 =======
