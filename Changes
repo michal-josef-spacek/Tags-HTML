@@ -1,5 +1,6 @@
 0.07
  - Update copyright years.
+ - Update Module::Install to 1.21 version.
 
 0.06 2022-10-25T22:07:12+02:00
  - Add _cleanup() and _init() methods to handle initialization and cleanup
