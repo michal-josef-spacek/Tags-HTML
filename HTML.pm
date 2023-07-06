@@ -163,20 +163,20 @@ Returns instance of class.
 
 =item * C<css>
 
-'CSS::Struct::Output' object for L<process_css> processing.
+'L<CSS::Struct::Output>' object for L</process_css> processing.
 
 Default value is undef.
 
 =item * C<no_css>
 
 No CSS support flag.
-If this flag is set to 1, L<process_css()> returns undef.
+If this flag is set to 1, L</process_css> don't process CSS style.
 
 Default value is 0.
 
 =item * C<tags>
 
-'Tags::Output' object for L<process> processing.
+'L<Tags::Output>' object for L</process> processing.
 
 Default value is undef.
 
@@ -202,7 +202,7 @@ Returns undef.
 
  $obj->process;
 
-Process Tags structure.
+Process L<Tags> structure.
 
 Returns undef.
 
@@ -210,7 +210,7 @@ Returns undef.
 
  $obj->process_css;
 
-Process CSS::Struct structure.
+Process L<CSS::Struct> structure.
 
 Returns undef.
 

@@ -20,20 +20,20 @@ METHODS
 
     *       "css"
 
-            'CSS::Struct::Output' object for process_css processing.
+            'CSS::Struct::Output' object for "process_css" processing.
 
             Default value is undef.
 
     *       "no_css"
 
-            No CSS support flag. If this flag is set to 1, process_css()
-            returns undef.
+            No CSS support flag. If this flag is set to 1, "process_css"
+            don't process CSS style.
 
             Default value is 0.
 
     *       "tags"
 
-            'Tags::Output' object for process processing.
+            'Tags::Output' object for "process" processing.
 
             Default value is undef.
 
