@@ -6,7 +6,8 @@ konstruktoru.
 6. Add process_js() method.
 7. Add information about inheritance to doc. Which methods we can inherite and
 why?
-8.
+8. Add test for prepare()
+9.
 
 Applied
 =======
