@@ -162,8 +162,8 @@ Tags::HTML - Tags helper abstract class.
 
  my $obj = Tags::HTML->new(%params);
  $obj->cleanup(@params);
- $obj->prepare(@params);
  $obj->init(@params);
+ $obj->prepare(@params);
  $obj->process;
  $obj->process_css;
 
