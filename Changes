@@ -1,5 +1,6 @@
 0.09
  - Add test for prepare().
+ - Add test for process().
  - Sort methods in SYNOPSIS section in doc.
  - Update copyright years.
 
