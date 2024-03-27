@@ -1,4 +1,4 @@
-0.09
+0.09 2024-03-27T23:01:46+01:00
  - Add test for prepare().
  - Add test for process().
  - Sort methods in SYNOPSIS section in doc.
