@@ -6,7 +6,6 @@ konstruktoru.
 6. Add process_js() method.
 7. Add information about inheritance to doc. Which methods we can inherite and
 why?
-8. Add test for prepare()
 9. Methods to implement to doc.
 10. Add documentation for architecture.
 11.
@@ -21,3 +20,6 @@ OK [20221025] skim
 
 5. Add cleanup() method to cleanup after process() and process_css().
 OK [20221025] skim
+
+8. Add test for prepare()
+OK [20240327] skim

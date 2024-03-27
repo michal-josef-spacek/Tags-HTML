@@ -24,7 +24,8 @@ t/Tags-HTML/02-version.t
 t/Tags-HTML/03-new.t
 t/Tags-HTML/04-cleanup.t
 t/Tags-HTML/05-init.t
-t/Tags-HTML/06-process.t
-t/Tags-HTML/07-process_css.t
+t/Tags-HTML/06-prepare.t
+t/Tags-HTML/07-process.t
+t/Tags-HTML/08-process_css.t
 xt/Tags-HTML/01-pod_coverage.t
 xt/Tags-HTML/02-pod.t
